@@ -6,6 +6,6 @@ export class Do {
 
   fetch() {
     this.storage.put('hello', 'world')
-    return new Response(null, {status: 204})
+    return new Response(null, { status: 204 })
   }
 }
