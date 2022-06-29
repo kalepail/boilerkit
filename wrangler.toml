@@ -1,0 +1,10 @@
+compatibility_date = "2022-06-06"
+
+kv_namespaces = [
+  { binding = "KV", id = "", preview_id = "" }
+]
+
+[durable_objects]
+bindings = [
+  { name = "DO", class_name = "Do" }
+]
