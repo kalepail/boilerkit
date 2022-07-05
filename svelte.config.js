@@ -32,9 +32,12 @@ const config = {
 				}
 			},
 			build: {
+				// minify: false,
+				// sourcemap: true,
 				rollupOptions: {
 					plugins: [
 						inject({
+							util: 'util',
 							window: path.resolve('src/helpers/window.js'),
 							Buffer: ['buffer', 'Buffer'],
 						}),
