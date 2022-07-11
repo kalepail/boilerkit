@@ -1,4 +1,4 @@
-# test-kit
+# boilerkit
 
 Everything you need to build a fullstack Svelte project. Powered by SvelteKit and Cloudflare.
 
